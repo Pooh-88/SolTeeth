@@ -6,7 +6,7 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import Teeth from "./Components/Teeth";
-import Resume from "./Components/Resume";
+import Feautures from "./Components/Feautures";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 
@@ -28,10 +28,10 @@ class App extends Component {
         <Header />
         <Home />
         <Teeth />
-        <Resume />
-        <Portfolio />
+        <Feautures />
+        {/* <Portfolio />
         <Contact />
-        <Footer />
+        <Footer /> */}
       </div>
     );
   }

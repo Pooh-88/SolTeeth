@@ -164,6 +164,16 @@ header .scrolldown a:hover { color: #0762f9; }
    color: #FF9B05 !important;
 }
 
+.line-2-height {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.line-2-height {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
 .line-3-height {
    margin-top: 30px;
    margin-bottom: 30px;
@@ -332,51 +342,68 @@ ul#nav li.current a { color: #fe6928; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. Feautures Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#feautures {
    background: transparent;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #0762f9; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#feautures a, #feautures a:visited  { color: #0762f9; }
+#feautures a:hover, #feautures a:focus { color: #313131; }
 
-#resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 1px;
+#feautures h1 {
+   font-family: "file" !important; 
+   color: #8D4DC9;
+   margin-bottom: 12px;
+   font-size: 48px !important;
 }
-#resume h1 span {
-   border-bottom: 3px solid #0762f9;
-   padding-bottom: 6px;
+
+#feautures h2 {
+   font-family: "file2" !important; 
+   color: #C8EEF5;
+   margin-bottom: 12px;
+   font-size: 30px !important;
 }
-#resume h3 {
+
+#feautures span, p {
+   font-family: "file2" !important; 
+   color: white;
+   margin-bottom: 12px;
+   font-size: 24px !important;
+}
+#feautures label {
+   font-family: "file2" !important; 
+   color: white;
+   margin-bottom: 12px;
+   font-size: 16px !important;
+}
+#feautures h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#feautures .header-col { padding-top: 9px; }
+#feautures .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#feautures .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#feautures .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#feautures .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }

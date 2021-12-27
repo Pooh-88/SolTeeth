@@ -19,12 +19,12 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
+              <a className="smoothscroll" href="#feautures">
                 Feautures
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#portfolio">
                 Rarity
               </a>
@@ -34,7 +34,7 @@ class Header extends Component {
               <a className="smoothscroll" href="#contact">
                 More
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>
